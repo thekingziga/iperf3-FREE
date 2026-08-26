@@ -1,0 +1,21 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Gauge arc -->
+    <path
+        android:pathData="M32,68a22,22 0 1,1 44,0"
+        android:strokeWidth="6"
+        android:strokeColor="#7FD1FF"
+        android:strokeLineCap="round" />
+    <!-- Needle pointing to the fast end -->
+    <path
+        android:pathData="M54,68L68,50"
+        android:strokeWidth="5"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M54,68m-4,0a4,4 0 1,0 8,0a4,4 0 1,0 -8,0"
+        android:fillColor="#FFFFFF" />
+</vector>
